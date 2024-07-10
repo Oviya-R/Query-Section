@@ -1,0 +1,16 @@
+.answer{
+    color: grey;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.hide{
+    display: none;
+    
+}
+
+.answer:focus + .hide{
+    display: block;
+}
+
